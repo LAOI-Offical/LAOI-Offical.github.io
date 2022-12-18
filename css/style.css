@@ -1,0 +1,35 @@
+/*
+Copyrigt 2022 LAOI
+*/
+html,body{
+    color: black;
+    font-family: "Microsoft Yahei UI",sans-serif;
+    font-size:13px;
+}::selection{
+    background: #0095ff60;
+}
+::-moz-selection{
+    background:#0095ff60;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 16px;
+}
+.hidetext{
+    font-size: 0%;
+}
+/*等html做好了再优化吧*/
