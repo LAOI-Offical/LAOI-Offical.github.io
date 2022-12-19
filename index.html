@@ -7,6 +7,7 @@
     <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="http://43.139.175.183/default.theme.js?version=4.42.21"></script>
+    <link rel="stylesheet" type="text/css" href="css/right-nav.css">
     <title>首页 - LAOI </title>
     <style>
         ul {
@@ -52,9 +53,33 @@
       <li><a class="active" href="/contest">比赛</a></li>
     </ul>
    
- 
+    <div class="mobile-nav">
+			<ul>
+				<!--<li class="nav_menu"><a onclick="change(1)">首页</a></li>
+				<li class="menu_one menu"><a onclick="change(1-1)">首页1</a></li>
+				<li class="menu_one menu"><a onclick="change(1-2)">首页2</a></li>
+				<li class="nav_menu"><a onclick="change(2)">项目管理</a></li>
+				<li class="menu_two menu"><a onclick="change(2-1)">项目1</a></li>
+				<li class="menu_two menu"><a onclick="change(2-2)">项目2</a></li>-->
+                <p>LAOI的介绍</p>
+			</ul>
+		</div>
+		
+		
+
     <div class="footer">
         <p>Copyright(c)&nbsp;2022-2022 LAOI保留所有权利</p>
     </div>
+    <script type="text/javascript">
+        function change(val){
+            if(val == "1"){
+                var show = $(".menu_one").css("display");
+                $(".menu_one").css("display",show =="none"?"block":"none");
+            }else if(val == "2"){
+                var show = $(".menu_two").css("display");
+                $(".menu_two").css("display",show =="none"?"block":"none");
+            }
+        }
+	</script>
 </body>
 </html>
