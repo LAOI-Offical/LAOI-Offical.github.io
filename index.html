@@ -17,6 +17,31 @@
     <script src="https://cdn.luogu.com.cn/js/luogu3_pre.js?ver=20190101"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" media="screen"/>
     <link rel="stylesheet" href="https://cdn.luogu.com.cn/fe/loader.css?ver=20221122">
+    <script>
+	    function scrollToId (id) {
+		$('html, body').animate({
+		    scrollTop: ($('#' + id).offset().top)
+		}, 500);
+	    }
+	</script>
+	<style>
+	    .lg-toolbar {
+		display: none;
+	    }
+
+	    #app-old{
+		display: block;
+		margin-bottom: 2em;
+		/* position: relative;*/
+		box-sizing: border-box;
+		max-width: 100%;
+	    }
+
+	    code {
+		font-family: monospace, "Courier New";
+	    }
+
+	</style>
     <title>首页 - LAOI </title>
     <style>
         ul {
