@@ -3,6 +3,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://laoi-offical.github.io/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
     <title>首页 - LAOI </title>
     <style>
         ul {
@@ -43,7 +46,30 @@
       <li><a class="active" href="/problem">题库</a></li>
       <li><a class="active" href="/contest">比赛</a></li>
     </ul>
-    <p>编写ing</p>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+   <!-- 指示符 -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.luogu.com.cn/upload/image_hosting/fpymv3sz.png?x-oss-process=image/resize,m_lfit,h_170,w_225" style="width:100%">
+    </div>
+  </div>
+  
+        <!-- 左右切换按钮 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
     <div class="footer">
         <p>Copyright(c)&nbsp;2022-2022 LAOI保留所有权利</p>
     </div>
