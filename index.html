@@ -9,6 +9,42 @@
     <script src="http://43.139.175.183/default.theme.js?version=4.42.21"></script>
     <title>首页 - LAOI </title>
     <style>
+        .is-loading {
+            /* 宽度和高度根据要展示元素大小设定 */
+            width: 500px;
+            height: 500px;
+            position: relative;
+            margin: 0 auto;
+            top:100px;
+ 
+            /* 以下代码实现背景动画效果 */
+            animation: loading 1.4s ease infinite;
+            -webkit-animation: loading 1.4s ease infinite;
+            background-image: -webkit-gradient(linear, left top, right top, color-stop(25%, #f0f0f0), color-stop(37%, #e3e3e3), color-stop(63%, #f0f0f0));
+            background-image: -o-linear-gradient(left, #f0f0f0 25%, #e3e3e3 37%, #f0f0f0 63%);
+            background-image: linear-gradient(90deg, #f0f0f0 25%, #e3e3e3 37%, #f0f0f0 63%);
+            background-size: 400% 100%
+        }
+ 
+        @-webkit-keyframes loading {
+            0% {
+                background-position: 100% 50%
+            }
+ 
+            to {
+                background-position: 0 50%
+            }
+        }
+ 
+        @keyframes loading {
+            0% {
+                background-position: 100% 50%
+            }
+ 
+            to {
+                background-position: 0 50%
+            }
+        }
         ul {
             list-style-type: none;
             margin: 0;
@@ -53,7 +89,7 @@
       <li><a class="active" href="/contest">比赛</a></li>
     </ul>
     
-    <img src="https://cdn.luogu.com.cn/upload/image_hosting/669cmgmx.png" style="width:50%">
+    <div class="is-loading"></div>
  
     <div class="footer">
         <p>Copyright(c)&nbsp;2022-2022 LAOI保留所有权利</p>
