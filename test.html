@@ -2,8 +2,6 @@
 <!--警告：这是测试代码-->
 <head>
   <title>测试 - LAOI</title>
-</head>
-<body>
   <spript>
     var quotes = [
 	'沉舟侧畔千帆过，病树前头万木春。',
@@ -29,16 +27,18 @@
 	'但愿人长久，千里共婵娟。',
 	'落红不是无情物，化作春泥更护花。',
 	'无为在歧路，儿女共沾巾。',
-  '空山清雨后，天气晚来秋。',
-  '唧唧复唧唧，木兰当户织。',
-  '莫等闲，白了少年头，空悲切！',
-  '这么无聊都刷到这了，给这个项目点个star吧！'
-]
+  	'空山清雨后，天气晚来秋。',
+	'唧唧复唧唧，木兰当户织。',
+	'莫等闲，白了少年头，空悲切！',
+	'这么无聊都刷到这了，给这个项目点个star吧！'
+    ]
 
-function newQuote() {
+    function newQuote() {
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
-}
+    }
   </spript>
+</head>
+<body>
   <button onclick="newQuote()">点我！</button>
 </body>
