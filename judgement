@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title> 主页 - LAOI </title>
+  <link rel="stylesheet" href="https://laoi-offical.github.io/css/style.css">
+  <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+      <li><a class="active" href="/">主页</a></li>
+      <li><a href="/problem">题库</a></li>
+      <li><a class="active" href="/contest">比赛</a></li>
+      <li><a class="active" href="/chat">公聊</a></li>
+      <li><a class="active" href="/forum">论坛</a></li>
+      <li><a class="active" href="/about">关于</a></li>
+      <li><a class="active" href="/login">登录</a></li>
+      <li><a class="active" href="/sin">注册</a></li>
+  </ul>
+  <p>建设房子中......</p>
+  <div class="footer">
+      <p>Copyright(c) 2022-2022 LAOI保留所有权利</p>
+      <a href="/judgement" style="text-decoration: none;color: #3498db">陶片放逐</a>
+  </div>
+</body>
+</html>
