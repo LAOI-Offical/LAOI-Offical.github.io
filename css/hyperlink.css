@@ -1,0 +1,9 @@
+/*
+这个CSS主要修改链接
+Copyright 2022 LAOI
+*/
+a {
+  color: #3498db;//颜色
+  text-decoration: none;//
+  font-family: "Microsoft Yahei UI",sans-serif,bold;
+}
